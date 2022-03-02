@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myh</title>
+    <link rel="stylesheet" href="style.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="topHeader">
+            <nav class="menubar">
+                <a href="index.html">
+                    <figure>
+                        <img src="images/logo.png" alt="Logo bild">
+                        <!-- <figcaption>Myndighet</figcaption> -->
+                    </figure>
+                </a>
+                <a class="icon" href="omoss.html">
+                    <figure>
+                        <img src="images/imgAbout.svg" alt="Om oss - Icon information">
+                        <figcaption>Om oss</figcaption>
+    
+                    </figure>
+                </a>
+                <a class="icon" href="verkasmhet.html">
+                    <figure>
+                        <img src="images/imgBusiness.svg" style="position:relative; top:2px; "
+                            alt="Verksamhet - Icon briefcase">
+                        <figcaption>Verksamhet</figcaption>
+                    </figure>
+                </a>
+                <a class="icon" href="lagar.html">
+                    <figure>
+                        <img src="images/imgLaws.svg" alt="Lagar - Icon scale">
+                        <figcaption>Lagar & regler</figcaption>
+                    </figure>
+                </a>
+                <a class="icon" href="statistik.html">
+                    <figure>
+                        <img src="images/imgStats.svg" alt="Statistik - Icon chart">
+                        <figcaption>Statistik</figcaption>
+                    </figure>
+                </a>
+                <a class="icon" href="publikationer.html">
+                    <figure>
+                        <img src="images/imgPubl.svg" style="position:relative; top:3px; " alt="Publikationer - Icon book">
+                        <figcaption>Publikationer</figcaption>
+                    </figure>
+                </a>
+    
+                <a class="icon" href="nyhetrum.html">
+                    <figure>
+                        <img src="images/imgNews.svg" alt="Nyhetsrum - Icon news globe">
+                        <figcaption>Nyhetsrum</figcaption>
+                    </figure>
+                </a>
+                <a class="icon" href="kontakt.html">
+                    <figure>
+                        <img src="images/imgContact.svg" style="position:relative; top:2px; "
+                            alt="Kontakter - Icon phone and letter">
+                        <figcaption>Kontakt</figcaption>
+                    </figure>
+                </a>
+                <div class="minimenu">
+                    <div class="extra">
+    
+                        <a href="#">Mina Sidor</a> | <a href="#">Språk</a> | <a href="#">Lättläst</a>
+                        <!--  <a>Inställningar</a> -->
+    
+                    </div>
+                    <div class="search">
+    
+                        <input placeholder="Sök" type="search" id="site-search" name="q"
+                            aria-label="Search through site content">
+                        <figure>
+                            <img id="find" src="images/find.svg" alt="Sök - Icon Magnifying glass">
+                        </figure>
+                    </div>
+    
+    
+                </div>
+    
+    
+                <a href="#" class="menuicon" onclick="document.querySelector('.menubar').classList.toggle('ddMenuActive');">
+                    <img src="images/imgMenubar.svg" style="height: 18px;" alt="Meny - Icon menu bars">
+                </a>
+    
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <img class="hero__img" alt="" src="./images/house.jpg" />
+        <h1 class="hero__title">Lagar, Regler, Tillsyn</h1>
+    </section>
+
+    <section class="block box-shadow">
+       <article>
+        <h2 class="block__title">För alla utbilldingar finns det lagar och regler som måste följas..</h2>
+        <p>
+            Här hittar du de lagar och förordningar som reglerar de utbildningsformer som Myndigheten för yrkeshögskolan ansvarar för. Här finns även de föreskrifter som vi har beslutat om, samt de allmänna råd vi har gett ut. 
+            Genom <br><br>tillsyn kontrollerar myndigheten att utbildningarna följer de lagar och regler som gäller. I menyn till höger kan du läsa om hur tillsynen går till och hitta tillsynsbeslut.
+            Om du anser att det finns brister i en utbildning kan du anmäla det till oss. Anmäl brister i en utbildning.
+        </p>
+        <button class="button">Läs mer..</button>
+       </article>
+    </section>
+
+
+    <section class="block block--scroll">
+        <article class="box-shadow">
+            <h2 class="block__title">Olika former av tillsyn</h2>
+            <p>
+                Vi genomför inledande tillsyn på alla nya utbildningar för att säkerställa att det som krävs för att bedriva en utbildning finns.
+                Utbildningarna granskas även genom fördjupad tillsyn.<br><br> Vilket innebär att myndigheten kontrollerar att pågående utbildningar bedrivs enligt de regler som finns för respektive utbildningsform.
+                Om någon anmäler brister i utbildningen, kan myndigheten välja att göra en tillsyn på förekommen anledning. Granskningen anpassas då till att kontrollera just det anmälan gäller.
+            </p>     </article>
+            <article class="box-shadow">
+            <h2 class="block__title">Gällande föreskrifter</h2>
+            <p>Här hittar du de föreskrifter som Myndigheten för yrkeshögskolan har utfärdat.
+                Myndigheten för yrkeshögskolan kan besluta om bindande bestämmelser som kallas föreskrifter. <br><br>En förutsättning är att regeringen har meddelat i en förordning att myndigheten får eller ska ge ut föreskrifter inom ett visst område.
+                De föreskrifter som utfärdats finns i Myndighetens för yrkeshögskolans författningssamling, MYHFS, och kan laddas ner som pdf-filer nedan.</p>
+        </article>
+        <article class="box-shadow">
+            <h2 class="block__title"> Kvalitetsgranskning</h2>
+            <ul>
+                <li><p>uppfyller nationella mål och normer inom området</p></li>
+                <li><p>uppfyller andra nationella mål, krav och riktlinjer som gäller för offentlig verksamhet i allmänhet samt</p></li>
+                <li><p>kännetecknas av ett systematiskt kvalitetsarbete</p></li>
+            </ul>
+
+         
+        </article>
+    </section>
+    <footer>
+        <section class="wrapper flex">
+            <div class="col1">
+                <h2>Om oss</h2>
+                <ul>
+                    <li>Telefon
+                    Ring vår växel 010-209 01 00
+                    Växeln är öppen vardagar 9.00 - 11.30, 13.00 - 15.00</li>
+                    <li>Press
+                    Presskontakter och pressmeddelanden finns i vårt nyhetsrum</li>
+                    <li>E-post
+                    Allmänna frågor/synpunkter: info@myh.se
+                    Registrator: registrator@myh.se</li>
+                    <li>Adress
+                    Myndigheten för yrkeshögskolan
+                    Box 145
+                    721 05 Västerås</li>
+            
+            </div>
+            <div class="col2">
+                <h2>Våra hemsidor</h2>
+                <ul>
+                <li>www.yrkeshogskolan.se</li>
+                <li>www.konstkulturutbildning.se</li>
+                <li>www.blitolk.nu</li>
+                <li>www.seqf.se</li>
+            </ul>
+
+            </div>
+            <div class="col3">
+                <h2>Övrigt</h2>
+                <ul>
+                    <li>Lediga Jobb</li>
+                    <li>Webbkarta</li>
+                    <li>Om webbkakor (cookies)</li>
+                    <li>Tillgänglighetsredogörelse</li>
+                    <li>Använda webbplatsen</li>
+                </ul>
+            </div>
+            <div class="col4">
+                <h2>Social</h2>
+                <ul>
+                   
+                    <li><img class="sociale" src="images/youtube.png" ></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+</html> 

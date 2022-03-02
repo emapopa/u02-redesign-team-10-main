@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Myh.se Verksamhet</title>
+		<link rel="stylesheet" href="style.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="topHeader">
+			<nav class="menubar">
+				<a href="index.html">
+					<figure>
+						<img src="images/logo.png" alt="Logo bild" />
+						<!-- <figcaption>Myndighet</figcaption> -->
+					</figure>
+				</a>
+				<a class="icon" href="omoss.html">
+					<figure>
+						<img src="images/imgAbout.svg" alt="Om oss - Icon information" />
+						<figcaption>Om oss</figcaption>
+					</figure>
+				</a>
+				<a class="icon" href="verkasmhet.html">
+					<figure>
+						<img
+							src="images/imgBusiness.svg"
+							style="position: relative; top: 2px"
+							alt="Verksamhet - Icon briefcase"
+						/>
+						<figcaption>Verksamhet</figcaption>
+					</figure>
+				</a>
+				<a class="icon" href="lagar.html">
+					<figure>
+						<img src="images/imgLaws.svg" alt="Lagar - Icon scale" />
+						<figcaption>Lagar & regler</figcaption>
+					</figure>
+				</a>
+				<a class="icon" href="statistik.html">
+					<figure>
+						<img src="images/imgStats.svg" alt="Statistik - Icon chart" />
+						<figcaption>Statistik</figcaption>
+					</figure>
+				</a>
+				<a class="icon" href="publikationer.html">
+					<figure>
+						<img
+							src="images/imgPubl.svg"
+							style="position: relative; top: 3px"
+							alt="Publikationer - Icon book"
+						/>
+						<figcaption>Publikationer</figcaption>
+					</figure>
+				</a>
+
+				<a class="icon" href="nyhetrum.html">
+					<figure>
+						<img src="images/imgNews.svg" alt="Nyhetsrum - Icon news globe" />
+						<figcaption>Nyhetsrum</figcaption>
+					</figure>
+				</a>
+				<a class="icon" href="kontakt.html">
+					<figure>
+						<img
+							src="images/imgContact.svg"
+							style="position: relative; top: 2px"
+							alt="Kontakter - Icon phone and letter"
+						/>
+						<figcaption>Kontakt</figcaption>
+					</figure>
+				</a>
+				<div class="minimenu">
+					<div class="extra">
+						<a href="#">Mina Sidor</a> | <a href="#">Språk</a> | <a href="#">Lättläst</a>
+						<!--  <a>Inställningar</a> -->
+					</div>
+					<div class="search">
+						<input
+							placeholder="Sök"
+							type="search"
+							id="site-search"
+							name="q"
+							aria-label="Search through site content"
+						/>
+						<figure>
+							<img id="find" src="images/find.svg" alt="Sök - Icon Magnifying glass" />
+						</figure>
+					</div>
+				</div>
+				<a
+					href="#"
+					class="menuicon"
+					onclick="document.querySelector('.menubar').classList.toggle('ddMenuActive');"
+				>
+					<img src="images/imgMenubar.svg" style="height: 18px" alt="Meny - Icon menu bars" />
+				</a>
+			</nav>
+		</div>
+		<main>
+			<!-- Heading -->
+
+			<div class="cbreadcrumb">
+				&nbsp;<a href="index.html">Start</a>&thinsp;&#8594;&thinsp;<a href="verkasmhet.html">Verksamhet</a>
+			</div>
+
+			<div class="grid-container">
+				<div class="evenBox">
+					<section class="head-container">
+						<header>
+							<h1>Verksamhet</h1>
+						</header>
+						<p>
+							Myndigheten för yrkeshögskolan har i uppdrag att ansvara för frågor som rör utbildningar
+							inom yrkeshögskolan. Dessutom ansvarar vi för ytterligare frågor inom utbildningsområdet.
+						</p>
+					</section>
+				</div>
+			</div>
+
+			<!-- Section with linked pictures -->
+			<!-- CONTAINER -->
+			<div class="box-container">
+				<!-- ITEMS -->
+
+				<div class="box-item item-1">
+					<a href="#"><img src="./images/books.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">Yrkeshögskolan <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Utbildningar som svarar mot arbetslivets behov av kvalificerad yrkeskompetens och som drivs
+							i nära samverkan med företag och andra arbetsgivare.
+						</p>
+					</div>
+				</div>
+
+				<div class="box-item item-2">
+					<a href="#"><img src="./images/abstract.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">Konst- och kulturutbildningar <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Utbildningar som är högskoleförberedande, yrkesinriktade eller inom kulturarvsområdet och
+							drivs av privata utbildningsanordnare.
+						</p>
+					</div>
+				</div>
+
+				<div class="box-item item-3">
+					<a href="#"><img src="./images/tolk.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">Tolkutbildningar <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Utbildningar till kontakttolk, teckenspråks- och dövblindtolk samt skrivtolk som drivs av
+							folkhögskolor och studieförbund.
+						</p>
+					</div>
+				</div>
+
+				<div class="box-item item-4">
+					<a href="#"><img src="./images/writer.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">Utbildningar med endast tillsyn <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Eftergymnasiala utbildningar inom olika områden som bedrivs av fristående skolor.
+							Utbildningarnas statliga stöd omfattas endast av tillsyn.
+						</p>
+					</div>
+				</div>
+
+				<div class="box-item item-5">
+					<a href="#"><img src="./images/notebook.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">SeQF <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Sveriges referensram för kvalifikationer (SeQF) ska synliggöra allt lärande för att öka
+							matchningen på arbetsmarknaden.
+						</p>
+					</div>
+				</div>
+
+				<div class="box-item item-6">
+					<a href="#"><img src="./images/concrete.jpg" alt="Yrkeshogskolan" width="284" height="204" /></a>
+
+					<h2 class="h-title">
+						<a href="#">Om validering <i class="icon-gl-chevron-right"></i></a>
+					</h2>
+					<div class="text-container">
+						<p>
+							Validering innebär att en persons kunskaper och kompetenser kartläggs och bedöms på ett
+							strukturerat sätt, för studier eller arbete, oavsett hur, var eller när de förvärvats.
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--     start footer -->
+
+		<footer>
+			<section class="wrapper flex">
+				<div class="col1">
+					<h2>Om oss</h2>
+					<ul>
+						<li>Telefon
+						Ring vår växel 010-209 01 00
+						Växeln är öppen vardagar 9.00 - 11.30, 13.00 - 15.00</li>
+						<li>Press
+						Presskontakter och pressmeddelanden finns i vårt nyhetsrum</li>
+						<li>E-post
+						Allmänna frågor/synpunkter: info@myh.se
+						Registrator: registrator@myh.se</li>
+						<li>Adress
+						Myndigheten för yrkeshögskolan
+						Box 145
+						721 05 Västerås</li>
+				
+				</div>
+				<div class="col2">
+					<h2>Våra hemsidor</h2>
+					<ul>
+					<li>www.yrkeshogskolan.se</li>
+					<li>www.konstkulturutbildning.se</li>
+					<li>www.blitolk.nu</li>
+					<li>www.seqf.se</li>
+				</ul>
+	
+				</div>
+				<div class="col3">
+					<h2>Övrigt</h2>
+					<ul>
+						<li>Lediga Jobb</li>
+						<li>Webbkarta</li>
+						<li>Om webbkakor (cookies)</li>
+						<li>Tillgänglighetsredogörelse</li>
+						<li>Använda webbplatsen</li>
+					</ul>
+				</div>
+				<div class="col4">
+					<h2>Social</h2>
+					<ul>
+					   
+						<li><img class="sociale" src="images/youtube.png" ></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
